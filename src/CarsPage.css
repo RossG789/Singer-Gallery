@@ -1,0 +1,37 @@
+.main-img {
+  height: 450px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.car-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 650px;
+  justify-content: space-evenly;
+  padding: 20px;
+  /* background-color: rgba(34, 37, 118, 0.349); */
+  margin: 20px;
+  border-radius: 8px;
+  border: 3px solid white;
+  background-color: rgb(30, 30, 30);
+}
+
+.car-container:hover {
+  border-color: rgb(255, 198, 92);
+  cursor: pointer;
+}
+
+.sorting {
+  display: flex;
+  justify-content: space-around;
+  width: 350px;
+}
