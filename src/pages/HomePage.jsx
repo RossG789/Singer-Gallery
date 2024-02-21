@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export function HomePage() {
   return (
     <div className="main-blurbs">
-      <h1>Welcome to the Singer curation site</h1>
+      <h1>Welcome to The Choir, a Singer Porsche curation site</h1>
       <p>
         Although Singer does a great job showcasing their cars, this one is made
         with React{" "}
@@ -16,7 +16,7 @@ export function HomePage() {
         </span>
       </p>
       <Link className="linkTags" to="/about">
-        About
+        <h2>About</h2>
       </Link>
     </div>
   );

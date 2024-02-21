@@ -9,7 +9,7 @@ export function AboutPage() {
         to try my hand at curating their amazing collection of cars for myself.
       </p>
       <Link className="linkTags" to="/cars">
-        See some of my favourites
+        <h2>See some of my favourites</h2>
       </Link>
     </div>
   );

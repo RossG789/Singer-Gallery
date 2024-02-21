@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <div className="nav-bar">
-          <h1>Singer Curation Site</h1>
+          <h1>The Choir</h1>
 
           <nav className="links">
             <Link className="linkTags" to="/">
